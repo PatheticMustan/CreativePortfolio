@@ -9,7 +9,7 @@ body {
 
 .sidenav {
 	height: 100%;
-	width: auto;
+	width: 230px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -33,7 +33,12 @@ body {
 }
 
 .main {
-	margin-left: 200px; /* Same as the width of the sidenav */
+	margin-left: 230px; /* Same as the width of the sidenav */
 	font-size: 28px;
-	padding: 0% 30% 0% 5%;
+	padding: 0% 30% 15% 5%;
+	line-height: 1.4;
+}
+
+img {
+	width: 100%;
 }
