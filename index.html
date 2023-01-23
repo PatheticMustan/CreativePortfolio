@@ -3,32 +3,19 @@
 	<head>
 		<title>Cozybound</title>
 
-		<link rel="stylesheet" href="./index.css">
-
-		<script>
-			window.onload = () => {
-				const navbar = document.getElementById("navbar");
-				const sticky = navbar.offsetTop;
-
-				window.onscroll = () => {
-					if (window.pageYOffset >= sticky) {
-						navbar.classList.add("sticky")
-					} else {
-						navbar.classList.remove("sticky");
-					}
-				}
-			}
-		</script>
+		<link rel="stylesheet" href="./index.css" />
+		<script src="./index.js"></script>
 	</head>
 
 	<body>
 		<div class="sidenav">
-			<a href="/">Cozybound</a>
-			<a href="#About">Intro</a>
-			<a href="#clients">Reflection</a>
-			<a href="#contact">Photos</a>
-			<a href="#contact">Poems</a>
-			<a href="#contact">Big Pieces</a>
+			<a href="./" style="font-weight: bold; font-size: 35px">Cozybound</a>
+			<a href="./Intro">Intro</a>
+			<a href="./Reflection">Reflection</a>
+			<a href="./Photos">Photos</a>
+			<a href="./Poems">Poems</a>
+			<a href="./BigPieces">Big Pieces</a>
+			<a href="./About">About</a>
 		</div>
 
 		<div class="main">
