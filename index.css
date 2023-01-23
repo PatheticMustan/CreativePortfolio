@@ -35,10 +35,18 @@ body {
 .main {
 	margin-left: 230px; /* Same as the width of the sidenav */
 	font-size: 28px;
-	padding: 0% 30% 15% 5%;
+	padding: 0% 10% 5% 5%;
 	line-height: 1.4;
 }
 
 img {
 	width: 100%;
+}
+
+p {
+	font-size: 20px;
+}
+
+::selection {
+	background: #074f1e;
 }
