@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	font-size: 28px;
 	font-family: Arial, Helvetica, sans-serif;
-	word-break: break-all;
+	word-break: break-word;
 	background-color: #002811;
 	color: #307e49;
 }
