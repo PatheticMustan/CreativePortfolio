@@ -50,3 +50,6 @@ p {
 ::selection {
 	background: #074f1e;
 }
+
+a { color: #2cb32c; }
+a:hover { color: #00ef00; }
